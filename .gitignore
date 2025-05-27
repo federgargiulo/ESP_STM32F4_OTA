@@ -1,0 +1,33 @@
+# ---------- Arduino ----------
+*.bin
+*.elf
+*.hex
+*.eep
+*.map
+*.out
+*.lst
+build/
+.pio/
+.pioenvs/
+.vscode/
+
+# Libraries (non versionarle)
+libdeps/
+libraries/
+
+# ---------- STM32CubeIDE ----------
+*.ioc
+*.elf
+*.bin
+*.hex
+Debug/
+Release/
+*.o
+*.d
+
+# ---------- OS / Editor ----------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
